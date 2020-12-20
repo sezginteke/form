@@ -1,0 +1,34 @@
+{
+  "name": "@acorn/form-item",
+  "version": "0.0.1",
+  "description": "TODO: description",
+  "author": "Uryan Sezgin TEKE <uryan.sezgin.teke@gmail.com>",
+  "homepage": "https://github.com/sezginteke/form#readme",
+  "private": false,
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sezginteke/form.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "lint": "eslint lib",
+    "compile": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/sezginteke/form/issues"
+  }
+}
