@@ -1,3 +1,1 @@
-const dummy: number = 5;
-
-export default dummy;
+export { default as FormReader } from "./FormReader";
