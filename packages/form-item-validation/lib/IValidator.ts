@@ -2,7 +2,7 @@
  *
  */
 interface IValidator<D> {
-  (data: D): Promise<boolean>;
+  (data: D): boolean;
 }
 
 export default IValidator;

@@ -1,3 +1,2 @@
-const dummy: number = 5;
-
-export default dummy;
+export { default as IValidator } from "./IValidator";
+export * from "./validator";
