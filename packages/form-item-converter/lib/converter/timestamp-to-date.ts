@@ -1,4 +1,4 @@
-import { IConverter } from "..";
+import { IConverter } from "@acorn/form-model";
 
 /**
  *

@@ -22,6 +22,9 @@
     "type": "git",
     "url": "git+https://github.com/sezginteke/form.git"
   },
+  "dependencies": {
+    "@acorn/form-model": "^0.0.1"
+  },
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rimraf dist *.tsbuildinfo",
