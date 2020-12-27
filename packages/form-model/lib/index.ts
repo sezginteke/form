@@ -1,5 +1,6 @@
 export * from "./action";
 export * from "./control";
+export * from "./controller";
 export * from "./converter";
 export * from "./entity";
 export * from "./enum";
